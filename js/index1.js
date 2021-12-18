@@ -7,3 +7,7 @@ function atractivoLaguna(){
 function atractivoPlaza(){
     location.href="https://www.youtube.com/watch?v=K0Lg0e4axVI";
 }
+
+function producto(){
+    location.href="../html/index2.html";
+}
