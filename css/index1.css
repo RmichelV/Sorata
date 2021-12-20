@@ -65,6 +65,7 @@ width: 100%;
     margin: 0;
     padding: 0px;
     text-align: center;
+    cursor: pointer;
 }
 
 .navBar ul{
@@ -178,7 +179,10 @@ width: 100%;
      font-weight: bold;
      font-style: italic;
      border: solid 2px rgb(18, 230, 18);
+     cursor: pointer;
  }
+
+
 
  footer{
      text-align: center;

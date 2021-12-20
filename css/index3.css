@@ -85,44 +85,45 @@ width: 100%;
     border-radius: 10px;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.promo-container{
+margin: 10px;
+padding: 0;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
 
-.product-container{
-    margin: 30px;
-    padding: 30px;
-    border: solid 3px white;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
+.caja-promo{
+border: 3px solid white;
+border-radius: 30px;
+margin: 20px;
+padding: 10px;
 }
 
-.product-container figure{
-    margin:0;
-    padding: 0;
-}
-.img-box{
-    width: 250px;
-    height: 250px;
-    border-radius: 100%;
-    cursor: pointer;
-}
-.img-box:hover{
-    transform: scale(1.2);
-}
-.description{
-    margin: 10px;
-    text-align: justify;
+.caja-promo figure{
+display: flex;
+justify-content: center;
 }
 
-.description h1{
+.promo-img{
+ height: 250px;
+ width: 250px;
+ border-radius: 100%;
+}
+
+.promo-description{
+margin: 20px;
+text-align: justify;
+}
+
+.promo-description h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:underline;
     font-style: italic;
 }
-
  footer{
      text-align: center;
      color: #FFFFFF;
      margin: 30px;
  }
+

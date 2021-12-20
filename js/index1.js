@@ -11,3 +11,15 @@ function atractivoPlaza(){
 function producto(){
     location.href="../html/index2.html";
 }
+
+function promociones(){
+    location.href="../html/index3.html";
+}
+
+function descuentos(){
+    location.href="";
+}
+
+function contactos(){
+    location.href=""
+}
