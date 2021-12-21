@@ -50,6 +50,11 @@ body{
     
 }
 
+.mensaje p{
+    font-family:sans-serif;
+    font-style: italic;
+} 
+
 .navBar {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

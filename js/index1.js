@@ -1,11 +1,11 @@
 function atractivoGruta(){
-    location.href="https://www.youtube.com/watch?v=3EjqJV7IZqo";
+    window.open('https://www.youtube.com/watch?v=3EjqJV7IZqo');
 }
 function atractivoLaguna(){
-    location.href="https://www.youtube.com/watch?v=bR6xhCh7EtA";
+    window.open('https://www.youtube.com/watch?v=bR6xhCh7EtA');
 }
 function atractivoPlaza(){
-    location.href="https://www.youtube.com/watch?v=K0Lg0e4axVI";
+    window.open('https://www.youtube.com/watch?v=K0Lg0e4axVI');
 }
 
 function producto(){
@@ -17,9 +17,9 @@ function promociones(){
 }
 
 function descuentos(){
-    location.href="";
+    location.href="../html/index4.html";
 }
 
 function contactos(){
-    location.href=""
+    location.href="../html/index5.html"
 }

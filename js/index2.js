@@ -11,25 +11,26 @@ function promociones(){
 }
 
 function descuentos(){
-    location.href="";
+    location.href="../html/index4.html";
 }
 
 function contactos(){
-    location.href="";
+    location.href="../html/index5.html";
 }
 
 function atrevete(){
-    location.href="https://www.youtube.com/watch?v=AFXGP-WBtAo";
+    window.open('https://www.youtube.com/watch?v=AFXGP-WBtAo');
 }
 
 function explora(){
-    location.href="https://www.youtube.com/watch?v=3EjqJV7IZqo";
+    window.open('https://www.youtube.com/watch?v=3EjqJV7IZqo');
 }
 
 function disfruta(){
-    location.href="https://www.youtube.com/watch?v=4mkK9hh-hBE";
+    window.open('https://www.youtube.com/watch?v=4mkK9hh-hBE');
+    
 }
 
 function saborea(){
-    location.href="https://www.youtube.com/watch?v=dQ90gBjrIoI";
+    window.open('https://www.youtube.com/watch?v=dQ90gBjrIoI');
 }
