@@ -136,3 +136,45 @@ border-radius: 100%;
      margin: 30px;
  }
 
+/* ---responsive---- */
+@media (max-width: 1024px){
+    .nav{
+    display: block;
+    margin-top: -20px
+    }
+    
+    .mensaje{
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .caja-descuento {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 850px){
+    .logo {
+        height:150px;
+        width: 150px;
+    }
+    .nav{
+    display: block;
+    }
+
+    .mensaje{
+        padding: 20px;
+        height: 100px;
+        font-size: 24px;
+        }
+    .navBar{
+    display: none;
+    }
+
+    .caja-descuento {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}

@@ -132,3 +132,46 @@ text-align: justify;
      margin: 30px;
  }
 
+/* -----responsive------- */
+
+@media (max-width: 1190px){
+.promo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (max-width: 1024px){
+    .nav{
+    display: block;
+    margin-top: -20px
+    }
+    
+    .mensaje{
+        margin: 20px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 850px){
+    .logo {
+        height:150px;
+        width: 150px;
+    }
+    .nav{
+    display: block;
+    }
+
+    .mensaje{
+        padding: 20px;
+        height: 100px;
+        font-size: 24px;
+        }
+    .navBar{
+    display: none;
+    }
+
+    .promo-container{
+        display: block;
+    }
+}
